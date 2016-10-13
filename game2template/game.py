@@ -56,7 +56,7 @@ def print_room_items(room):
 
     """
     if len(room["items"]) != 0:
-        print("There is" + list_of_items(room["items"]) + " " + "here.")
+        print("There is " + list_of_items(room["items"]) + " " + "here.")
         print()
 
 
