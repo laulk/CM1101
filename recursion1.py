@@ -12,3 +12,13 @@ def g(n):
 	else:
 		return g(n-1)+g(n - 2)+ 1 # the +1 is to keep track number of times function called
 
+
+#333
+define list 
+a= [1,2,3,4]
+def printList(a):
+	while len(a) >0:
+		print(a.pop(0))
+
+
+printlist(a[:]) #passes a copy of the list
